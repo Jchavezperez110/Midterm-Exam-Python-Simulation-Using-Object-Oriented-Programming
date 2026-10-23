@@ -1,21 +1,30 @@
 JJBA Character Simulator
-│
-├── Character
-│     ├── Jotaro Kujo
-│     ├── DIO
-│     ├── Joseph Joestar
-│     ├── Josuke Higashikata
-│     └── Giorno Giovanna
-│
-├── Main Menu
-│     ├── Show Characters
-│     ├── View Character
-│     ├── Use Stand Ability
-│     └── Exit
-│
-└── Character Actions
-      ├── Display Character Information
-      ├── Display Stand Name
-      ├── Display Power Level
-      ├── Use Stand Ability
-      └── Return to Main Menu
+|
+|-- Character Class
+|   |-- Name
+|   |-- Stand
+|   |-- Power
+|   |-- Display Character Information
+|   |-- Use Stand Ability
+|
+|-- Game Class
+|   |-- Character Roster
+|   |   |-- Jotaro Kujo
+|   |   |-- Johnny Joestar
+|   |   |-- Jolyne Cujoh
+|   |   |-- Josuke Higashikata
+|   |   |-- Giorno Giovanna
+|   |
+|   |-- Main Menu
+|       |-- Select a Character (1–5)
+|       |-- View Character Information
+|       |-- Use Stand Ability
+|       |-- Display Error for Invalid Choice
+|       |-- Exit (6)
+|
+|-- Program Flow
+    |-- Start Program
+    |-- Display Menu
+    |-- Ask for User Choice
+    |-- Repeat Menu Until Exit Is Selected
+    |-- End Program
